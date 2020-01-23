@@ -224,3 +224,65 @@ tr:nth-child(even) {
     grid-area: map6;
   }
   
+  #content img{
+    height: 300px;
+    width: auto;
+  }
+
+  #content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 60px 30px;
+    max-width: 100%;
+    margin: 30px 30px;
+          grid-template-areas:
+              "image1 text1 text1"
+              "text2 text2 image2"
+              "image3 text3 text3"
+  }
+
+  .img1{
+    grid-area: image1;
+  }
+  .text1{
+    grid-area: text1;
+  }
+
+  .img2{
+    grid-area: image2;
+  }
+  .text2{
+    grid-area: text2;
+  }
+  .img3{
+    grid-area: image3;
+  }
+  .text3{
+    grid-area: text3;
+  }
+    #content h3{
+      color: #4B4B4B;
+    }
+    #content p{
+      color: #4B4B4B;
+      padding: 2px;
+    }
+  
+    .images .card p{
+      color: #4B4B4B; 
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;   
+  }
+  .text1, .text2, .text3{
+    padding:10px;
+    border: solid 0.5px lightgray;
+    box-shadow: 1px 2px #888888;
+    border-radius: 3px;
+  }
+  .img1, .img2, .img3{
+    border: solid 0.5px lightgray;
+    box-shadow: 1px 2px #888888;
+    border-radius: 3px;
+  }
