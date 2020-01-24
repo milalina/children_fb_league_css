@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>NYSL</title>
+</head>
+
+<body>
+    <header>
+        <h1>Northside Youth Soccer League</h1>
+    </header>
+    <div class="logo">
+        <img src="/images/logo.png" alt="">
+    </div>
+    <section class="banner">
+        <img src="/images/design1_image1.jpg" alt="" srcset="">
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About NYSL</a></li>
+            <li><a href="info.html">Locations</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="page-head">
+        <h2>Registration</h2>
+    </div>
+    <div class="form">
+        <p class="form_heading"><strong>Registration Form </strong></p>
+        <form method="get" action="show_data.html">
+            <div class="container_row">
+                <p class="flex-subitem">
+                    <label for="first_name">Player’s First Name:</label>
+                    <input class="text_field" type="text" name="first_name" id="first_name" />
+                </p>
+                <p class="flex-subitem">
+                    <label for="last_name">Last Name:</label>
+                    <input class="text_field" type="text" name="last_name" id="last_name" />
+                </p>
+            </div>
+            <!--end of container_row-->
+            <p>
+                <label for="street_address">Street Address:</label>
+                <input class="text_field" type="text" name="street_address" id="street_address" />
+            </p>
+            <div class="container_row">
+                <p class="flex-subitem">
+                    <label for="city">City:</label>
+                    <input class="text_field" type="text" name="city" id="city" />
+                </p>
+                <p class="flex-subitem">
+                    <label for="zip_code">Zip Code:</label>
+                    <input class="text_field" type="text" name="zip_code" id="zip_code" />
+                </p>
+            </div>
+            <!--end of container_row-->
+            <div class="container_row">
+                <p>
+                    <label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+                    <input class="text_field_sp" type="text" name="birth_date" id="birth_date" />
+                </p> &nbsp;
+                <p class="small">Gender:</p> &nbsp;
+                <p>
+                    <input class="radio_to_check" type="radio" name="gender" id="female" value="female" />
+                    <label for="female">Female</label>
+                    <input class="radio_to_check" type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                </p>
+            </div>
+            <!--end of container_row-->
+            <div class="container_row">
+                <p class="small">Grade:</p> &nbsp;
+                <p>
+                    <input class="radio_to_check" type="radio" name="grade" id="pre-school" value="pre-school" />
+                    <label for="pre-school">Pre-School</label> &nbsp;
+                    <input class="radio_to_check" type="radio" name="grade" id="1st" value="1st" />
+                    <label for="1st">1<sup>st</sup></label> &nbsp;
+                    <input class="radio_to_check" type="radio" name="grade" id="2nd" value="2nd" />
+                    <label for="2nd">2<sup>nd</sup></label> &nbsp;
+                    <input class="radio_to_check" type="radio" name="grade" id="3rd" value="3rd" />
+                    <label for="3rd">3<sup>rd</sup></label> &nbsp;
+                    <input class="radio_to_check" type="radio" name="grade" id="4th" value="4th" />
+                    <label for="4th">4<sup>th</sup></label> &nbsp;
+                    <input class="radio_to_check" type="radio" name="grade" id="5th" value="5th" />
+                    <label for="5th">5<sup>th</sup></label> &nbsp;
+                </p>
+            </div>
+            <!--end of container_row-->
+            <label for="parent_guardian">Parent/Guardian:</label>
+            <input class="text_field" type="text" name="parent_guardian" id="parent_guardian" />
+            </p>
+            <div class="container_row">
+                <p class="flex-subitem">
+                    <label for="contact_phone">Contact Phone:</label>
+                    <input class="text_field" type="text" name="contact_phone" id="contact_phone" />
+                </p>
+                <p class="flex-subitem">
+                    <label for="contact_mail">Contact Email:</label>
+                    <input class="text_field" type="text" name="contact_mail" id="contact_mail" />
+                </p>
+            </div>
+            <!--end of container_row-->
+            <p>
+                <strong>Which elementary schools do you live near?</strong>
+                <div class="container_row">
+                    <p class="flex-item small">
+                        First Closest School:
+                    </p>
+                    <p class="flex-item small">
+                        Second Closest School:
+                    </p>
+                </div>
+                <div class="container_row">
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="aj_katzenmaier"
+                                    value="aj_katzenmaier" />
+                                <label for="aj_katzenmaier">AJ Katzenmaier</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="greenbay"
+                                    value="greenbay" />
+                                <label for="greenbay">Greenbay</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="howardayeager"
+                                    value="howardayeager" />
+                                <label for="howardayeager">Howard A Yeager</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="marjorie"
+                                    value="marjorie" />
+                                <label for="marjorie">Marjorie P Hart</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="n_elementary"
+                                    value="n_elementary" />
+                                <label for="n_elementary">North Elementary</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="1school" id="s_elementary"
+                                    value="s_elementary" />
+                                <label for="s_elementary">South Elementary</label>
+                            </div>
+                        </div>
+                    </p>
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="aj_katzenmaier"
+                                    value="aj_katzenmaier" />
+                                <label for="aj_katzenmaier">AJ Katzenmaier</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="greenbay"
+                                    value="greenbay" />
+                                <label for="greenbay">Greenbay</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="howardayeager"
+                                    value="howardayeager" />
+                                <label for="howardayeager">Howard A Yeager</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="marjorie"
+                                    value="marjorie" />
+                                <label for="marjorie">Marjorie P Hart</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="n_elementary"
+                                    value="n_elementary" />
+                                <label for="n_elementary">North Elementary</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="2school" id="s_elementary"
+                                    value="s_elementary" />
+                                <label for="s_elementary">South Elementary</label>
+                            </div>
+                        </div>
+                        <!--end of flex-item-->
+                    </p>
+                </div>
+                <p>
+                    <strong>What position(s) do you normally play?</strong>(check all that apply)
+                </p>
+                <div class="container_row">
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_cur" id="forward" value="forward" />
+                                <label for="forward">Forward</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_cur" id="defense" value="defense" />
+                                <label for="defence">Defense</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_cur" id="midfield" value="midfield" />
+                                <label for="midfield">Midfield</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_cur" id="goalkeeper" value="goalkeeper" />
+                                <label for="goalkeeper">Goalkeeper</label>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <p>
+                    <strong>What position(s) do you want to play?</strong>(check all that apply)
+                </p>
+                <div class="container_row">
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_des" id="forward" value="forward" />
+                                <label for="forward">Forward</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_des" id="defense" value="defense" />
+                                <label for="defence">Defense</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_des" id="midfield" value="midfield" />
+                                <label for="midfield">Midfield</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input type="checkbox" name="position_des" id="goalkeeper" value="goalkeeper" />
+                                <label for="goalkeeper">Goalkeeper</label>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <p>
+                    <input type="checkbox" name="position" id="forward" value="forward" />
+                    <label for="forward"><strong>Already have a Uniform </strong></label>
+                </p>
+                <div class="container_row">
+                    <p class="flex-item small">
+                        Joursey Size:
+                    </p>
+                    <p class="flex-item small">
+                        Shorts Size:
+                    </p>
+                </div>
+                <div class="container_row ">
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="youthsmall"
+                                    value="youthsmall" />
+                                <label for="youthsmall">Youth Small</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="youthmedium"
+                                    value="youthmedium" />
+                                <label for="youthmedium">Youth Medium</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="youthLarge"
+                                    value="youthLarge" />
+                                <label for="youthLarge">Youth Large</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="small"
+                                    value="small" />
+                                <label for="small">Small</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="medium"
+                                    value="medium" />
+                                <label for="medium">Medium</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="large"
+                                    value="large" />
+                                <label for="large">Large</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="joursey_size" id="extreLarge"
+                                    value="extreLarge" />
+                                <label for="extreLarge">Extra-Large</label>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="youthsmall"
+                                    value="youthsmall" />
+                                <label for="youthsmall">Youth Small</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="youthmedium"
+                                    value="youthmedium" />
+                                <label for="youthmedium">Youth Medium</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="youthLarge"
+                                    value="youthLarge" />
+                                <label for="youthLarge">Youth Large</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="small"
+                                    value="small" />
+                                <label for="small">Small</label>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="medium"
+                                    value="medium" />
+                                <label for="medium">Medium</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="large"
+                                    value="large" />
+                                <label for="large">Large</label>
+                            </div>
+                            <div class="flex-subitem">
+                                <input class="radio_to_check" type="radio" name="shorts_size" id="extreLarge"
+                                    value="extreLarge" />
+                                <label for="extreLarge">Extra-Large</label>
+                            </div> <!-- end of item-->
+                        </div>
+                    </p>
+                </div>
+                <p class="container_row small">Permission to Play</p>
+                <p class="x-small">I, the parent or guardian of the minor registrant, agree that the registrant and I
+                    will abide by all the rules of the Northside Youth
+                    Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and
+                    in consideration for the “League”
+                    accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or
+                    otherwise indemnify NYSL, their
+                    employees and associated personnel and volunteers, including the facilities used for practices and
+                    games, against any claim by or
+                    on behalf of the registrant as a result of the registrant’s participation in the program and/or
+                    being transported to or from NYSL
+                    sponsored activities, which transportation.</p>
+                <p class="container_row x-small">
+                    By signing below, I hereby agree and authorize the above. In addition, by signing below, I also
+                    acknowledge that I have read the
+                    cancellation policy and agree to its terms.
+                </p>
+                <div>
+                    <p>
+                        <input type="checkbox" name="authorization" id="authorization" value="authorization" />
+                        <label class="small" for="authorization"> I understand that by entering my name below, I am
+                            hereby authorizing the form</label>
+                    </p>
+                </div>
+                <div class="container_row">
+                    <p class="flex-subitem">
+                        <label for="signature">Parent/Guardian Signature:</label>
+                        <input class="text_field" type="text" name="signature" id="signature" />
+                    </p>
+                    <p class="flex-subitem">
+                        <label for="date">Date:</label>
+                        <input class="text_field" type="text" name="date" id="date" />
+                    </p>
+                </div>
+                <button class="submit_button" name="submit">
+                    <strong>Submit</strong>
+                </button>
+        </form>
+    </div>
+    <!--end of form-->
+    <footer>
+        <span>&copy; 2020 NYSL| All Rights Reserved</span>
+    </footer>
+</body>
+
+</html>
