@@ -10,7 +10,7 @@ a {
 }
 
 header {
-  background-color: #5c0f22;
+  background-color: #8c1633;
   padding: 10px 0;
   text-align: center;
   position: fixed;
@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-  color: #00666b;
+  color: white;
   display: inline-block;
 }
 
@@ -49,7 +49,7 @@ header .logo {
 }
 
 nav {
-  background-color: #00666b;
+  background-color: #164f8c;
   padding: 20px;
   position: sticky;
   top: 55px;
@@ -67,24 +67,29 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  color: #5c0f22;
   width: 13%;
   font-size: 18px;
-  text-decoration: none;
   font-variant: small-caps;
   font-weight: bold;
 }
+nav ul li a{
+  text-decoration: none; 
+  color: white;
+}
+nav ul li a:hover{
+  font-size: 25px;
+}
 
 .page-head {
-  background-color: #5c0f22;
+  background-color: #8c7e16;
   text-align: center;
-  color: #00666b;
+  color: white;
   padding: 10px;
 }
 
 footer {
-  background: #5c0f22;
-  color: #00666b;
+  background: #164f8c;
+  color: white;
   padding: 15px;
   text-align: center;
   width: 100%;
@@ -106,7 +111,7 @@ footer {
   border: solid 0.5px lightgray;
   margin: 10px;
   text-align: center;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
 }
 
@@ -154,14 +159,21 @@ tr:nth-child(even) {
 }
 
 .inner-card {
-  max-width: 301px;
+  max-width: 300px;
   height: fit-content;
   border: solid 0.5px lightgray;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
   margin: auto;
 }
-
+.inner-card:hover {
+  background: linear-gradient(
+    53deg,
+    rgba(22, 79, 140, 0.33),
+    rgb(140, 22, 51, 0.33)
+  );
+  background-color:rgba(0, 153, 162, 0.33);
+}
 .text-location {
   padding: 10px;
 }
@@ -201,11 +213,6 @@ iframe {
   width: 300px;
   height: 300px;
   border: 0px;
-}
-
-iframe:hover {
-  max-width: 400px;
-  height: 400px;
 }
 
 .maps h4,
@@ -277,7 +284,7 @@ p {
 .text3 {
   padding: 10px;
   border: solid 0.5px lightgray;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
 }
 
@@ -285,7 +292,7 @@ p {
 .img2,
 .img3 {
   border: solid 0.5px lightgray;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
 }
 
@@ -294,7 +301,7 @@ p {
   margin: 30px;
   color: #4B4B4B;
   border: solid 0.5px lightgray;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
 
 }
@@ -382,7 +389,8 @@ p {
 .form {
   color: #4B4B4B;
   border: solid 0.5px lightgray;
-  box-shadow: 1px 2px #888888;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /*box-shadow is created with properties: offset-x: 10px; offset-y: 10px; blur-radius: 5px; spread-radius: 5px 
   border-radius: 3px;
   position: relative;
   
