@@ -78,6 +78,7 @@ nav ul li a{
 }
 nav ul li a:hover{
   font-size: 25px;
+  transition: all 0.3s ease;
 }
 
 .page-head {
@@ -390,10 +391,9 @@ p {
   color: #4B4B4B;
   border: solid 0.5px lightgray;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  /*box-shadow is created with properties: offset-x: 10px; offset-y: 10px; blur-radius: 5px; spread-radius: 5px 
+  /*box-shadow is created with properties: offset-x: 10px; offset-y: 10px; blur-radius: 5px; spread-radius: 5px */
   border-radius: 3px;
   position: relative;
-  
   padding: 30px;
   margin: 30px;
 }
